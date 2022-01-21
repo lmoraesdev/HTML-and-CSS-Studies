@@ -108,7 +108,8 @@ nav.navbar-transparente{
 footer {
 	background: #000;
 	padding: 50px 0 20px 0;
-	position:relative;
+	position: relative;
+	z-index: 1;
 }
 
 footer h4 {
@@ -120,11 +121,12 @@ footer h4 {
 footer .navbar-nav a {
 	color: white;
 	font-size: 0.8em;
+	text-decoration: none;
 }
 
 footer .navbar-nav a:hover {
 	color: #9bf0e1;
-	text-decoration: none;
+
 }
 
 footer ul {
@@ -170,7 +172,7 @@ h3 {
 	}
 	.btn-custom {
 		margin: 10px 15px;
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
 }
 /* Medium devices (tablets, 768px and up) */
@@ -180,7 +182,7 @@ h3 {
 	}
 	.btn-custom {
 		margin: 10px 15px;
-		font-size: 1.8em;
+		font-size: 1.3em;
 	}
 }
 /* Large devices (desktops, 992px and up) */
